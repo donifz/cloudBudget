@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  font-size: 14px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  min-height: 782px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(213, 32, 71, 0.8) 0%,
+      rgba(238, 61, 27, 0.8) 100%
+    ),
+    url(img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+}
+/* .bg {
+  width: 100%;
+  max-height: 782px;
+
+  
+} */
+.wrapper {
+  max-width: 1176px;
+  margin: 0 auto;
+}
+.header-wrapper {
+}
+.header .header__navbar {
+}
+.header .header__navbar-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__navbar .logo-block {
+  display: flex;
+  align-items: center;
+}
+
+.header__navbar .logo-block .logo-name {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+
+  /* identical to box height */
+
+  text-transform: uppercase;
+  margin-left: 9.9px;
+  color: #ffffff;
+}
+
+.header__navbar .navbar__navlist a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-transform: uppercase;
+  margin-left: 35px;
+  color: #ffffff;
+}
+.header__navbar .login-block {
+  display: flex;
+  align-items: center;
+}
+.header__navbar .login-block .lang {
+  outline: none;
+  border: none;
+  background: none;
+  color: #ffffff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.login-block .login {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
+  /* identical to box height */
+
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 12px 28px;
+  margin-left: 28px;
+}
